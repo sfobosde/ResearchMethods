@@ -1,7 +1,7 @@
 # ResearchMethods
-
-## 1. Первый запуск
-### 1.1 Установка окружения
+<details>
+<summary>## 1. Первый запуск</summary>
+<details><summary>### 1.1 Установка окружения</summary>
 Перед запуском необходимо установить виртуальное окружение, например venv:
 ```
 python -m venv venv
@@ -26,8 +26,8 @@ PS C:\Projects\ResearchMethods>
 (venv) PS C:\Projects\ResearchMethods>
 ```
 Приписка venv означает, что вы включили виртуальное окружение и нет внешних зависимостей проекта.
-
-### 1.1 Установка библиотек
+</details>
+<details><summary>### 1.2 Установка библиотек</summary>
 Убедитесь, что находитесь в одной папке с файлом **requirements.txt**
 Для этого прописать 
 ```
@@ -51,9 +51,12 @@ pip install -r requirements.txt
 ```
 
 После этого начнется установка всех необходимых библиотек.
-### 1.3 Запуск
+</details>
+<details><summary>### 1.3 Запуск</summary>
 Запуск производится командой 
 ```
 jupyter notebook
 ```
 На localhost запустится приложение и с ним можно работать.
+</details>
+</details>
